@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bean Collector</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Quattrocento" rel="stylesheet">    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="containter">
+        <div class="row">
+            <div class="col-md-12 title">
+                <h1>Collect Berti Botts Every Flavor Beans</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-12 record">
+                <div id="wins">
+                    <h2>Wins:</h2>
+                </div>
+                <div id="losses">
+                    <h2>Losses:</h2>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-9 col-xs-12">
+                <img src="assets/images/honeydukes.png" alt="Honeydukes logo" id="honeydukes" width="300px"/>
+            </div>
+            <div class="col-md-4 col-sm-1">
+                <br>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 col-sm-2 col-xs-12 todo" id="ansNum">
+
+            </div>
+            <div class="col-md-7 col-sm-8 col-xs-12" id="instructions">
+                <p>Click on the bean piles below to pick some up. Each pile will yeild a different secret amount! Your goal is to collect just enough beans to add up to the number given below.</p>
+                <br>
+                <p>Careful! Collect too many beans and you loose.</p>
+            </div>
+        </div>
+
+        <div class="gameZone">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12 collection">
+                    <h2>Beans Collected:</h2>
+                </div>
+            </div>
+
+            <div class="row beanPile">
+                <div class="col-lg-3 col-md-4 col-sm-5 col-xs-6">
+                    <img src="assets/images/red-jellies-square.jpg" class="beans" id="redBean" alt="red beans" width="200px">
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-5 col-xs-6">
+                    <img src="assets/images/green-jellies-square.jpg" class="beans" id="greenBean" alt="green beans" width="200px">
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-5 col-xs-6">
+                    <img src="assets/images/blue-jellies-square.jpg" class="beans" id="blueBean" alt="blue beans" width="200px">
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-5 col-xs-6">
+                    <img src="assets/images/yellow-jellies-square.jpg" class="beans" id="yellowBean" alt="yellow beans" width="200px">
+                </div>
+            </div>
+        </div>
+
+        <script src="assets/javascript/game.js"></script>
+    </div>
+</body>
+
+</html>
